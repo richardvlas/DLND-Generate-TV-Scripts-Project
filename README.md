@@ -22,17 +22,35 @@ The neural network is build in PyTorch and implements an RNN architecture with L
 |Fully connected|output = vocab_size, activation: linear|
 
 ## Results
-The trained network is used to generate a new, "fake" Seinfeld TV script of specified length `gen_length=400` and `prime word='jerry'` to start with as shown in the example of generated script below
+The trained network is used to generate a new, "fake" Seinfeld TV script of specified length `gen_length=400` and `prime_word='jerry'` to start with as shown in the snapshot example of generated script below
 
 
->jerry: ???
+>jerry:, you know, you know the same thing i was going to get out of your mind.
 >
->jerry: ???
+>jerry: i think we can do this!
 >
->kramer: ???
+>jerry: i don't know. i mean, i think you should do it.
 >
+>elaine:(to jerry) hey, i can't get the hell outta here.
 >
+>george:(pointing at the phone) yeah, well, i guess i can get out of this thing.
 >
+>elaine: what is this?
 >
-
-
+>george: oh no. no, no, no. no, no.
+>
+>kramer: hey, hey, hey, hey, you got a little taste?
+>
+>jerry: i don't know.
+>
+>elaine: oh, no.
+>
+>kramer: well, i'm not going to be able to be here.
+>
+>george: what about?
+>
+>jerry: well, you know, you don't have to get to work. you don't think i was going to do it?
+>
+>elaine: yeah...
+>
+>kramer: well, you know, it's like you don't have to be interested in a while, and you know, i think i could have seen it in my apartment.
