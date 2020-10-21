@@ -19,5 +19,20 @@ The neural network is build in PyTorch and implements an RNN architecture with L
 |---|---|
 |Embedding|embedding dims = 400|
 |LSTM|#layers = 2, hidden dims = 256, drop_prob = 0.5|
-|Dropout|drop_prob = 0.3|
 |Fully connected|output = vocab_size, activation: linear|
+
+## Results
+The trained network is used to generate a new, "fake" Seinfeld TV script of specified length `gen_length=400` and `prime word='jerry'` to start with as shown in the example of generated script below
+
+
+>jerry: ???
+>
+>jerry: ???
+>
+>kramer: ???
+>
+>
+>
+>
+
+
